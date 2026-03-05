@@ -1,6 +1,12 @@
 h1 {
     text-align: center;
 }
-span {
-    text-align: right;
+h2 {
+    color:#6495ED; text-align: center
+}
+h3 {
+    text-align:right;
+}
+p {
+    text-align:center;
 }
