@@ -1,0 +1,21 @@
+/* ELEMENT SELECTOR */
+h1 {
+    text-transform: uppercase;
+    color: #654321;
+}
+
+/* ID SELECTOR */
+#status {
+    font-family: sans-serif;
+}
+
+img {
+    width:400px;
+}
+
+/* CLASS SELECTOR */
+.standout-box {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
