@@ -1,6 +1,7 @@
 * /*UNIVERSAL SELECTOR*/ {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: gray;
+    font-family: sans-serif;
 }
 
 /* ELEMENT SELECTOR */
@@ -9,15 +10,17 @@ h1 {
     color: #654321;
 }
 
-/* ID SELECTOR */
-#status {
-    font-family: sans-serif;
-}
-
 img {
     width:400px;
 }
 
+/* ID SELECTOR */
+#status {
+    color: saddlebrown;
+}
+#location {
+    color: black;
+}
 /* CLASS SELECTOR */
 .standout-box {
     background-color: whitesmoke;
@@ -29,4 +32,29 @@ img {
     color: #654321;
     font-size: 1.2rem;
     font-weight: bold;
+}
+.announcement {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+h1, .subtitle {
+     font-family: serif
+}
+
+/* PSEUDO CLASS SELECTORS*/
+a {
+    text-decoration: none;
+    color: rgb(163, 157, 111);
+}
+a:hover {
+    text-decoration: underline;
+    color: #966919;
+}
+/*.standout-box:hover {
+    background-color: crimson;
+}*/
+main {
+    width: 600px;
+    margin: auto;
 }
