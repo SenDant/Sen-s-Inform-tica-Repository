@@ -11,7 +11,35 @@ header {
     background-color: white;
     border-bottom: 1px solid #dbdbdb;
     text-align: center;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999; /* layer setting*/
 }
 main {
     width: 500px;
+    margin: 100px auto 0;
+}
+.post {
+    position: static; /* By default its already in static, which means it takes all the space possible of the line (does nothing)*/
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 30px
+}
+.image-container {
+    position: relative; /* rarely used. like "absolute", but it remains its original space; it doesn't eliminate it. If we dont use its going to use the parent that includes everyone (main). Used to help other properties */
+    width: 100%;
+    height: 500px;
+}
+.post-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.live-badge {
+    position: absolute; /*respects relative; and limits a space(?)*/
+    top: 10px;
+    left: 10px;
+    background-color: crimson;
+    color: white;
+    padding: 2px 8px;
+    font-weight: bold;
+    border-radius: 3px;
 }
