@@ -1,12 +1,53 @@
+article {
+    width: 600px;
+    margin: auto;
+}
 h1 {
     text-align: center;
+    font-family: helvetica;
 }
 h2 {
     color:#6495ED; text-align: center
 }
 h3 {
     text-align:right;
+    text-transform: uppercase;
 }
 p {
     text-align:center;
+}
+.flex {
+    top: 100%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+#firstheader {
+    height: 100%;
+    padding: 1rem;
+}
+#secondheader {
+    height: 100%;
+    padding: 1rem;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+#vision {
+    border-top:  1px solid black;
+    border-bottom:  1px solid black;
+}
+#vision, #title {
+    padding-top: 2rem;
+    padding-bottom: 2rem
 }
