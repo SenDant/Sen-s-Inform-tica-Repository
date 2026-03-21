@@ -1,11 +1,40 @@
 body {
-    height: 5000px;
+    height: 3100px;
+    margin: 0;
+    background-color: gray;
 }
-.layer {
-    background-color: black;
+header {
+    color: crimson;
+    font-size: 100px;
+}
+* {
+    font-size: 50px;
+}
+.lines {
+    background-color: crimson;
+    width: 100%;
     position: sticky;
+    top: 0px;
+}
+li {
+    font-size: 35px;
+    color: #3C4142;
+}
+#D, #A, #N, #T, #E {
+    color: white;
 }
 #D {
-    position: sticky;
-
+    z-index: 1;
+}
+#A {
+    z-index: 2;
+}
+#N {
+    z-index: 3;
+}
+#T {
+    z-index: 4;
+}
+#E {
+    z-index: 5;
 }
