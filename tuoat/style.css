@@ -1,0 +1,112 @@
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 999;
+    color: #002A5C;
+    justify-content: space-between;
+    display: flex;
+    flex: sticky;
+}
+body {
+   background-color: #9CC2F0;
+}
+ .searchbox {
+   padding-top: 30px;
+   padding-right: 2rem;
+   top: 10px;
+   font-weight: bold;
+   border-color: gray;
+   height: 30px;
+   width: 300px;
+   font-size: 20px;
+   border-radius: 1rem;
+   font-family: sans-serif;
+ }
+ #search {
+   font-size: 20px;
+ }
+
+body {
+   height:800px;
+}
+#headerlogo {
+   padding-left: 10px;
+}
+.sugoma {
+   color: white;
+   height: 95%;
+   width: 20%;
+   background-color: #002A5C;
+   border-radius: 1rem;
+   padding: 0.5rem;
+   border-bottom: 1px solid black;
+}
+.sugoma:hover {
+   background-color: #001C3D;
+}
+#box{
+   height: 700px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+footer{
+   padding-top: 150px;
+    height: 300px;
+}
+#footertext{
+   text-align:center;
+   font-size:20px
+}
+#hero {
+   margin: 115px auto 0;
+   height: 225px;
+   text-align: center;
+}
+#logo {
+   top:100px;
+}
+#logotext {
+   text-align: center;
+   color: white;
+}
+.tuoat {
+   font-style: bold;
+   color: #002A5C;
+   font-size: 95px;
+}
+#searchbar {
+   padding: 40px;
+}
+.imgholder {
+   margin: 3% auto;
+   position: relative;
+   width: 95%;
+   height: 200px;
+}
+.uninfo {
+   margin: 5% auto;
+   position: relative;
+   width: 90%;
+   height: 60%
+}
+.imgofuni {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 1rem;
+   border: 2px solid white;
+}
+a {
+    color: #9CC2F0;
+}
+a:hover {
+    text-decoration: none;
+    color: cyan;
+}
