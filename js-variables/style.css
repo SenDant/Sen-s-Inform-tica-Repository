@@ -1,7 +1,15 @@
 body {
-    background-color: #bfbfbf;
+    height: 900px;
+    background: linear-gradient(180deg, crimson, white)
 }
 #buttons {
+    color = green;
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    padding: 10%;
+}
+h1 {
+    text-align: center;
+    color: white;
 }
