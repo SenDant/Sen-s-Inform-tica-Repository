@@ -1,6 +1,6 @@
 body {
     height: 900px;
-    background: linear-gradient(180deg, crimson, white)
+    background: linear-gradient(180deg, #004146, #00C8D6);
 }
 #buttons {
     color = green;
