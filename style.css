@@ -1,0 +1,17 @@
+a {
+    color: gray;
+}
+a:hover {
+    color: green;
+}
+body {
+    padding-left: 5%;
+    background-color: lightgreen;
+}
+. {
+    color: darkgreen;
+}
+h1 {
+    text-family: sans-serif;
+    color: white;
+}
