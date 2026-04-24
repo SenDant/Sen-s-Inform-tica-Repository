@@ -1,17 +1,41 @@
 a {
-    color: gray;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 a:hover {
-    color: green;
+    color: red;
 }
 body {
     padding-left: 5%;
-    background-color: lightgreen;
+    height: 1000px;
+     background: linear-gradient(180deg, #362524, #8B332E);
 }
-. {
-    color: darkgreen;
+p {
+    color: #E00C00;
 }
 h1 {
     text-family: sans-serif;
-    color: white;
+    color: #B6261E;
+    padding-left: 5%;
+}
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 999;
+    color: #002A5C;
+    justify-content: space-between;
+    display: flex;
+    flex: sticky;
+}
+main {
+    margin-top: 120px;
+}
+.checkpointbox {
+    background-color: #362524;
 }
