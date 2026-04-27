@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(180deg, #ECD587, #CAB673);
+    height: 500px;
+}
+button {
+    background-color: #86794D;
+    color: #ECD587;
+    border-color: #ECD587;
+}
+button:active {
+    background-color: #ECD587;
+    color: #86794D;
+}
+h1, p, h2 {
+    color: #645A39;
+}

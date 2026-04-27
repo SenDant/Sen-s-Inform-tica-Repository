@@ -39,3 +39,7 @@ main {
 .checkpointbox {
     background-color: #362524;
 }
+.href {
+    display: flex;
+    justify-content: space-around;
+}
