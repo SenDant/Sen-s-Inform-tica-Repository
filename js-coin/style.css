@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(180deg, #ECD587, #CAB673);
-    height: 500px;
+    background: linear-gradient(180deg, #ECD587, #645A39);
+    height: 1000px;
 }
 button {
     background-color: #86794D;
@@ -13,4 +13,8 @@ button:active {
 }
 h1, p, h2 {
     color: #645A39;
+}
+main {
+    text-align: center;
+    margin: auto;
 }
