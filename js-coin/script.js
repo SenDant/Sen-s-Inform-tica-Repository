@@ -1,7 +1,7 @@
 function flip() {
     result = Math.random();
     if (result < 0.5) {
-        coin = "Tails"
+        coin = "Tails!"
     }
     else {
         coin = "Heads!"
