@@ -10,11 +10,18 @@
     <body>
         <main>
             <h1>
-                Flip a coin!
+                What's it gonna be?
             </h1>
-            <div class="button"><button onclick="flip()">Flip the coin</button></div>
+            <h4>Choose your answer:</h4>
+            <div class="buttons">
+                <button onclick="isItTails()">Tails</button>
+                <button onclick="isItHeads()">Heads</button>
+            </div>
+            <button onclick="flip()">Flip the coin!</button>
              <p> RESULT: </p>
             <h2></h2>
+            <h3></h3>
+            <button onclick="restart()">Play Again</button>
         </main>
     </body>
 </html>
