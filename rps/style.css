@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    background: linear-gradient(180deg, #2F283C, #C762E5);
+    height: 1000px;
+}
+button {
+    background-color: #463366;
+    color: #E6ADE3;
+    border-color: #C762E5;
+    font-family: "Pixelify Sans", sans-serif;
+}
+button:hover {
+    background-color: #5820BA;
+}
+button:active {
+    background-color: #E6ADE3;
+    color: #2F283C;
+}
+
+h1, p, h2, h3, h4, span {
+    color: #E6ADE3;
+    font-family: "Pixelify Sans", sans-serif;
+}
+main {
+    text-align: center;
+    margin: auto;
+}
+#box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom: 10px;
+}
+#result {
+    width: 100%;
+    background-color: #E6ADE3;
+    color: #463366;
+}
