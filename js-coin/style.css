@@ -7,14 +7,30 @@ button {
     color: #ECD587;
     border-color: #ECD587;
 }
+button:hover {
+    background-color: #FFEFBA;
+}
 button:active {
     background-color: #ECD587;
     color: #86794D;
 }
-h1, p, h2 {
+
+h1, p, h2, h3, h4, span {
     color: #645A39;
 }
 main {
     text-align: center;
     margin: auto;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right:30%;
+    padding-bottom: 10px;
+}
+#scoreboard {
+    background-color: #FFEFBA;
+    border-radius: 1rem;
+    border: 2px solid #86794D;
 }
