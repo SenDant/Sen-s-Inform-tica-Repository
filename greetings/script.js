@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("#day").innerHTML = "Today is "+ day;
 
     if (day === "Friday") {
-      document.querySelector("#friday").innerHTML = "FINALY FRIDAY!!!";
+      document.querySelector("#friday").innerHTML = "FINALLY FRIDAY!!!";
     }
     else if (day === "Saturday") {
       document.querySelector("#friday").innerHTML = "Enjoy your weekend!";
