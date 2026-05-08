@@ -17,15 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let day = now.getDay();
     console.log(day);
-    if () {
-      document.querySelector("#friday").innerHTML = "It isn't Friday yet!";
-    }
-    else if (day === 6) {
-      document.querySelector("#friday").innerHTML = "IT'S FRIDAY!!!";
-    }
-    else () {
-      document.querySelector("#friday").innerHTML = "IT'S FRIDAY!!!";
-    }
+
 
     if (day === 0) {
       day = "Sunday";
@@ -49,6 +41,19 @@ document.addEventListener("DOMContentLoaded", function() {
       day = "Saturday";
     }
     document.querySelector("#day").innerHTML = "Today is "+ day;
+
+    if (day === "Friday") {
+      document.querySelector("#friday").innerHTML = "FINALY FRIDAY!!!";
+    }
+    else if (day === "Saturday") {
+      document.querySelector("#friday").innerHTML = "Enjoy your weekend!";
+    }
+    else if (day === "Sunday") {
+      document.querySelector("#friday").innerHTML = "Enjoy your weekend!";
+    }
+    else {
+      document.querySelector("#friday").innerHTML = "Not Friday yet!";
+    }
 
 
     return false; //Prevents website from reloading.
