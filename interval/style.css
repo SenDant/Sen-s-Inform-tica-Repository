@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+    background-color: crimson;
+    margin: 0;
+    text-align: center;
+}
+.minutebox {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    font-family: "Syne Mono", monospace;
+    background-color: lightyellow;
+    color: crimson;
+    border-color: crimson;
+}
+h1, h2 {
+    font-family: "Syne Mono", monospace;
+    color: lightyellow;
+    text-align = center;
+}
